@@ -18,4 +18,6 @@ chmod +x /usr/local/bin/docker-compose
 
 ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
+cd /home/vagrant/app
+
 docker-compose up -f docker-compose_go.yaml

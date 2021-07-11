@@ -11,7 +11,12 @@ pipeline {
         timestamps()
     }
     stages {
-        stage("First step") {
+        stage("Compile") {
+            steps {
+                sh 'echo "test"'
+            }
+        }
+        stage("Build") {
             steps {
                 sh 'echo "test"'
             }

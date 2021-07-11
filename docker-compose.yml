@@ -17,6 +17,6 @@ services:
       - db
     build:
       context: .
-      dockerfile: Dockerfile_go
+      dockerfile: Dockerfile
     ports:
       - "8088:8088"
